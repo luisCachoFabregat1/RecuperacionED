@@ -1,0 +1,14 @@
+package EjerciciosJavaTema2;
+
+//num pares entre 0 y 100
+public class ej3 {
+
+	public static void main(String[] args) {
+		for (int i = 0; i <= 100; i++) {
+			if (i % 2 == 0) {
+				System.out.println(i);
+			}
+		}
+	}
+
+}
